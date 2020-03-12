@@ -2,19 +2,20 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: "default"
+layout: custom
 title: "Wasiq Noor's Home Page"
 ---
 
 <!-- Horizontal table for menu -->
-<table style="width: 20%;">
+<!-- <h2>{{ site.data.samplelist.docs_list_title }}</h2> -->
+<!-- <table style="width: 20%;">
   <tr>
-    <th>Publications</th>
-    <th>Blogs</th>
-    <th>Books</th>
+    {% for item in site.data.samplelist.docs %}
+      <th><a href="{{ item.url }}">{{ item.title }}</a></th>
+    {% endfor %}
     <th><a href="assets/Wasiq_CV.pdf">CV</a></th>
   </tr>
-</table>
+</table> -->
 
 
 <!-- Recent News -->

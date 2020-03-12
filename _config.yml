@@ -21,10 +21,10 @@
 title: Wasiq Noor
 email: wasiqnoorahmad@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-            I am an enthusiatic software engineer and researcher. 
+            I am an enthusiastic software engineer and researcher. 
             My research interests include Distributed Systems, Cellular Networks 
             and Network Security in general. I love engineering small and large
-            scale systems and challenegs involved. Other than that, I love to code
+            scale systems and challenges involved. Other than that, I love to code
             in my spare time :)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -35,6 +35,7 @@ github_username:  wasiqnoorahmad
 theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
