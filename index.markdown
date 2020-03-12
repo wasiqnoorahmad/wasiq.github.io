@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: "default"
-title: "Wasiq Noor's Home Page"
+title: "Wasiq Noor's Home Pag"
 ---
 
 <!-- Horizontal table for menu -->
