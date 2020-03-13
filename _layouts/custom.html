@@ -1,18 +1,62 @@
----
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+<!DOCTYPE html>
+<html lang="en-US">
 
-layout: "default"
----
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
 
-<!-- Horizontal table for menu -->
-<table style="width: 35%;">
-    <tr>
-        {% for item in site.data.samplelist.docs %}
-        <th><a href="{{ item.url }}">{{ item.title }}</a></th>
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+    <title>{{ page.title }}</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <!-- <img src="/assets/me.png" alt="Wasiq" style="float:right;width:20%;height:20%;"> -->
+
+            <h1>{{ site.title }}</h1>
+            <h2>{{ site.description }}</h2>
+            <h3>{{ site.contact_info }}</h3>
+
+
+            <!-- <section id="downloads">
+                <a href="" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+            </section> -->
+
+            {% for item in site.data.samplelist.navigation %}
+            <a href="{{ item.url }}">{{ item.title }}</a>
+            {% endfor %}
+            <a href="/assets/Wasiq_CV.pdf">CV</a>
+
+
+
+        </div>
+    </header>
+
+    <!-- Horizontal Navigation Menu -->
+    <!-- <div class="container">
+        {% for item in site.data.samplelist.navigation %}
+        <a href="{{ item.url }}">{{ item.title }}</a>
         {% endfor %}
-        <th><a href="/assets/Wasiq_CV.pdf">CV</a></th>
-    </tr>
-</table>
+        <a href="/assets/Wasiq_CV.pdf">CV</a>
+    </div> -->
 
-{{ content }}
+
+
+    <div class="container">
+        <section id="main_content">
+            {{ content }}
+        </section>
+    </div>
+
+    <!-- <footer>
+        <div class="container">
+            <a>GitHub</a>
+        </div>
+    </footer> -->
+</body>
+
+</html>

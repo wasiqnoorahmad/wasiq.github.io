@@ -1,6 +1,6 @@
 
-# Including Docs list
-docs:
+# Including Navigation list
+navigation:
   - title: Home
     url: /
   
@@ -9,6 +9,3 @@ docs:
 
   - title: Blogs
     url: /blogs
-
-  # - title: About
-  #   url: /about
