@@ -1,14 +1,14 @@
 
 # Including Docs list
 docs:
+  - title: Home
+    url: /
+  
   - title: Publications
     url: /publications
 
   - title: Blogs
     url: /blogs
 
-
-blogs:
-  - title: How to install Linux
-    summary: This blog explains how Linux is installed on every machine.
-    url: /linux
+  # - title: About
+  #   url: /about

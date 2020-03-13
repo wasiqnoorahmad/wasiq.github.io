@@ -6,9 +6,8 @@ permalink: /blogs/
 
 # Blogs
 
-{% for blog in site.data.samplelist.blogs %}
+{% for blog in site.posts %}
 
-<!-- <Number> <Title> <Url> -->
 ## {{ forloop.index }}. [{{ blog.title }}]({{ blog.url }})
 > {{ blog.summary }}
 
