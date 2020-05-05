@@ -12,7 +12,8 @@ title: "Home Page"
   <li>Our poster on Edge based Cellular Networks has been accepted at SigComm 2019, Beijing.</li>
 </ul>
 
-<h1>Recent Blogs</h1>
+<!-- <h1>Recent Blogs</h1>
 {% for post in site.posts limit:5 %}
 <a href="{{ post.url }}">{{ post.title }}</a> <br>
-{% endfor %}
+{% endfor %} -->
+
