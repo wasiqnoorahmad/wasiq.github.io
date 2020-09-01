@@ -10,8 +10,6 @@ permalink: /publications/
 > Mukhtiar Ahmad, Wasiq Noor Ahmad Qasmi, Syed Usman Jafri, Ridah Naseem, Muhammad Ali Nawazish, Muhammed Azam Ikram, Zartash Uzmi, and Zafar Ayyub Qazi.
     * SigComm 2019, Beijing
 
-<br/><br/>
-
 2. A Low Latency and Cellular Control Plane \[[PDF](https://dl.acm.org/doi/pdf/10.1145/3387514.3406218)\]
 > Mukhtiar Ahmad, Syed Usman Jafri, Azam Ikram, Wasiq Noor Ahmad Qasmi, Muhammad Ali Nawazish, Zartash Uzmi, and Zafar Ayyub Qazi.
     * SigComm 2020, NYC
