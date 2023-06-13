@@ -1,12 +1,7 @@
 ---
---- 
-@import "{{ site.theme }}";
+---
 
-header h2 {
-    font-size: 18px;
-    font-weight: 300;
-    color: #ffffff;
-}
+@import 'jekyll-theme-hacker';
 
 li {
     padding-block-end: 16px;
