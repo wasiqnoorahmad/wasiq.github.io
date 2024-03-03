@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Blogs
-permalink: /jira_frameworks
+# permalink: /jira_frameworks
 ---
 
 # Behind the Scenes: The Complexities of Jira Integration Frameworks
